@@ -7,7 +7,7 @@ Blog post with videos
 http://drew5.net/2014/06/11/windows-universal-app-with-arduino/
 
 Sketch
-http://drew5.net/downloads/Bluetooth-Comm_bb.png
+![alt tag](http://drew5.net/downloads/Bluetooth-Comm_bb.png)
 
 DISCLAIMER:
 ==============
