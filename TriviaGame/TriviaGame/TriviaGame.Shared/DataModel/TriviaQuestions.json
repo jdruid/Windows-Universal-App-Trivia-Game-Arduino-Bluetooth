@@ -1,0 +1,68 @@
+﻿{"Groups": [{
+
+        "UniqueId": "Group1",
+        "Title": "Category 1",
+        "Subtitle": "Questions about Category 1",
+        "Items":
+             [{
+                "UniqueId": "Question-1",
+                "QuestionType": "TrueFalse",
+                "QuestionText": "State Flags: The California state flag was originally intended to have a pear on it.",
+                "AnswerText": "False"
+            },
+            {
+                "UniqueId": "Question-2",
+                "QuestionType": "TrueFalse",
+                "QuestionText": "Airports: Hartsfield-Jackson Atlanta International Airport is named for two former mayors of Atlanta.",
+                "AnswerText": "True"
+            },
+            {
+                "UniqueId": "Question-3",
+                "QuestionType": "TrueFalse",
+                "QuestionText": "Pro Basketball: The Dallas Mavericks are one of the four NBA teams that previously played in the ABA. ",
+                "AnswerText": "False"
+            },
+            {
+                "UniqueId": "Question-4",
+                "QuestionType": "TrueFalse",
+                "QuestionText": "Space Exploration: Telstar I, launched on July 10, 1962, was the first communications satellite ever put into orbit.",
+                "AnswerText": "False"
+            },
+            {
+                "UniqueId": "Question-5",
+                "QuestionType": "TrueFalse",
+                "QuestionText": "1970s Music: Roberta Flack teamed up The Spinners to sing their chart-topping hit song Then Came You in 1974.",
+                "AnswerText": "False"
+            },
+            {
+                "UniqueId": "Question-6",
+                "QuestionType": "TrueFalse",
+                "QuestionText": "National Landmarks: The Gateway Arch in St. Louis is as wide as it is tall--630 feet (192 meters).",
+                "AnswerText": "True"
+            },
+            {
+                "UniqueId": "Question-7",
+                "QuestionType": "TrueFalse",
+                "QuestionText": "Inventors: Heavyweight boxing legend Jack Johnson holds a patent on a wrench.",
+                "AnswerText": "True"
+            },
+            {
+                "UniqueId": "Question-8",
+                "QuestionType": "TrueFalse",
+                "QuestionText": "Late-Night TV: The long-running ABC News program Nightline started off as a nightly wrap-up show about the American energy crisis during the 1970s.",
+                "AnswerText": "False"
+            },
+            {
+                "UniqueId": "Question-9",
+                "QuestionType": "TrueFalse",
+                "QuestionText": "The Super Bowl: Miami Dolphins safety Jake Scott was the first defensive player to win the Super Bowl MVP Award.",
+                "AnswerText": "False"
+            },
+            {
+                "UniqueId": "Question-10",
+                "QuestionType": "TrueFalse",
+                "QuestionText": "U.S. Geography: North Carolina shares borders with four states--Georgia, South Carolina, Tennessee and Virginia.",
+                "AnswerText": "True"
+            }]
+    }]
+}

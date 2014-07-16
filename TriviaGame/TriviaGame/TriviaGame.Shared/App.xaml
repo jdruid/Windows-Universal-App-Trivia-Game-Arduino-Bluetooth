@@ -1,0 +1,26 @@
+﻿<Application
+    x:Class="TriviaGame.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TriviaGame"
+    xmlns:controls="using:TriviaGame.Controls"
+    xmlns:tgc="using:TriviaGame.Common.Arduino">
+
+    <Application.Resources>
+        <!--a BluetoothConnectionManager and a UIConverter, available everywhere within this app-->
+        
+        <!-- Application-specific resources -->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/Styles.xaml"/>
+                <ResourceDictionary>
+                    <tgc:BluetoothConnectionManager x:Key="BluetoothManager" />
+                    <controls:UIConverter x:Key="UIConverter" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
+
+

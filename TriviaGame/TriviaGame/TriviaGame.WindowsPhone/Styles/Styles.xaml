@@ -1,0 +1,108 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TriviaGame.Styles">
+
+    <Style x:Key="GameGridStyle" TargetType="Grid">
+        <Setter Property="Opacity" Value="0.8" />
+        <Setter Property="Grid.ColumnSpan" Value="3" />
+    </Style>
+
+    <Style x:Key="ButtonGridStyle" TargetType="Grid">
+        <Setter Property="Margin" Value="0" />
+    </Style>
+
+    <Style x:Key="ButtonPanelStyle" TargetType="StackPanel">
+        <Setter Property="Orientation" Value="Vertical" />
+    </Style>
+
+
+    <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="Width" Value="150" />
+        <Setter Property="Height" Value="55" />
+        <Setter Property="Margin" Value="0" />
+        <Setter Property="Padding" Value="0" />
+    </Style>
+
+    <Style x:Key="QuestionGridStyle" TargetType="Grid">
+        <Setter Property="Margin" Value="10,30,0,0" />
+        <Setter Property="MaxHeight" Value="120" />
+    </Style>
+
+    <Style x:Key="QuestionViewBox" TargetType="Viewbox">
+        <Setter Property="Width" Value="300" />
+        <Setter Property="MaxHeight" Value="120" />
+    </Style>
+
+    <Style x:Key="QuestionTextBlock" TargetType="TextBlock">
+        <Setter Property="Width" Value="300" />
+        <Setter Property="FontSize" Value="35" />
+        <Setter Property="FontWeight" Value="Light" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Grid.ColumnSpan" Value="2" />
+    </Style>
+
+    <Style x:Key="AnswerButtonStackPanelStyle" TargetType="StackPanel">
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="58,197,57,100" />
+        <Setter Property="Grid.ColumnSpan" Value="1" />
+
+    </Style>
+
+    <Style x:Key="HUDStackPanelStyle" TargetType="StackPanel">
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="VerticalAlignment" Value="Bottom" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="Width" Value="320" />
+        <Setter Property="Height" Value="100" />
+        <Setter Property="Background" Value="#34435B" />
+        <Setter Property="Opacity" Value="0.8" />
+        <Setter Property="Grid.Column" Value="0" />
+        <Setter Property="Grid.ColumnSpan" Value="3" />
+        <Setter Property="Margin"  Value="0" />
+    </Style>
+
+    <Style x:Key="HUDScoreStackPanelStyle" TargetType="StackPanel">
+        <Setter Property="Orientation" Value="Vertical" />
+        <Setter Property="VerticalAlignment"  Value="Top" />
+        <Setter Property="Margin"  Value="50,0,50,0" />
+    </Style>
+
+    <Style x:Key="HUDTimerStackPanelStyle" TargetType="StackPanel">
+        <Setter Property="Orientation" Value="Vertical" />
+        <Setter Property="VerticalAlignment"  Value="Top" />
+    </Style>
+
+    <Style x:Key="HUDTimeLeftStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="20" />
+        <!--Setter Property="Margin" Value="10,10,10,0" /-->
+        <Setter Property="FontWeight" Value="Light" />
+    </Style>
+
+    <Style x:Key="HUDTimeLeftTimerStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Margin" Value="10,0" />
+        <Setter Property="FontWeight" Value="Light" />
+        <Setter Property="TextAlignment" Value="Left" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="FontSize" Value="60" />
+    </Style>
+
+    <Style x:Key="HUDScoreTextStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="20" />
+        <!--Setter Property="Margin" Value="10,70,10,0" /-->
+        <Setter Property="FontWeight" Value="Light" />
+    </Style>
+
+    <Style x:Key="HUDScoreStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="60" />
+        <Setter Property="Margin" Value="10,0" />
+        <Setter Property="FontWeight" Value="Light" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="TextAlignment" Value="Left" />
+    </Style>
+
+</ResourceDictionary>

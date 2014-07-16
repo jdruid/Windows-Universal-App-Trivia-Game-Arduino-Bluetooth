@@ -1,0 +1,57 @@
+<VisualMicro>
+  <Program Name="BluetoothCommunication" Ext=".ino" Location="C:\Users\jodrew\Documents\Visual Studio 2013\Projects\ArduinoBluetoothUniversalApp\TriviaGame\TriviaGame\ArduinoBluetooth\BluetoothCommunication">
+    <Platform Name="arduino10x" Package="arduino" Platform="avr" Architecture="avr">
+      <Board Name="uno" Description="Arduino Uno" CoreFolder="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino" VariantFullPath="C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard" McuIdePath="C:\Program Files (x86)\Arduino" McuSketchBookPath="C:\Users\jodrew\Documents\Arduino" name="Arduino Uno" upload.protocol="arduino" upload.maximum_size="32256" upload.speed="115200" bootloader.low_fuses="0xff" bootloader.high_fuses="0xde" bootloader.extended_fuses="0x05" bootloader.path="optiboot" bootloader.file="optiboot_atmega328.hex" bootloader.unlock_bits="0x3F" bootloader.lock_bits="0x0F" build.mcu="atmega328p" build.f_cpu="16000000L" build.core="arduino" build.variant="standard" runtime.ide.path="C:\Program Files (x86)\Arduino" build.system.path="C:\Program Files (x86)\Arduino\hardware\arduino\system" runtime.ide.version="105" originalid="uno" vm.platform.root.path="C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\arduino10x" build.core.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino" build.core.parentfolder.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino\cores" build.core.coresparentfolder.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino" vm.core.include="arduino.h" ide.hint="Arduino 0023 and 1.0.x Ide" ide.location.key="Arduino" ide.location.ide.winreg="Arduino 1.0.x Application" ide.location.sketchbook.winreg="Arduino 1.0.x Sketchbook" ide.location.sketchbook.preferences="sketchbook.path" ide.location.sketchbook.default="%MYDOCUMENTS%\arduino" ide.location.preferences="%VM_APPDATA_ROAMING%\arduino\preferences.txt" ide.default.package="arduino" ide.default.platform="avr" ide.multiplatform="true" ide.includes="arduino.h" ide.platformswithoutpackage="true" ide.includes.fallback="wprogram.h" ide.extension="ino" ide.extension.fallback="pde" ide.versionLTEQ="149" ide.exe="arduino.exe" ide.hosts="atmel" ide.url="http://arduino.cc/en/Main/Software" vm.debug="true" software="ARDUINO" ide.appid="arduino10x" location.sketchbook="C:\Users\jodrew\Documents\Arduino" build.board="AVR_UNO" vm.boardsource.path="C:\Program Files (x86)\Arduino\hardware\arduino" vm.platformname.name="avr" build.arch="AVR" build.variant.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard" vm.runtime.compiler.showwarnings="false" compiler.path="C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\" includes=" -I&quot;C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino&quot;  -I&quot;C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard&quot;  -I&quot;C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers\VM_DBG&quot;  -I&quot;C:\Program Files (x86)\Arduino\libraries\SoftwareSerial&quot;  -I&quot;C:\Program Files (x86)\Arduino\libraries&quot;  -I&quot;C:\Program Files (x86)\Arduino\hardware\arduino\libraries&quot;  -I&quot;C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers&quot;  -I&quot;C:\Users\jodrew\Documents\Arduino\libraries&quot; " build.path="C:\Users\jodrew\AppData\Local\VMicro\Arduino\Builds\BluetoothCommunication\uno" build.project_name="BluetoothCommunication" build.variant.path="C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard" archive_file="core.a" object_file="C:\Users\jodrew\AppData\Local\VMicro\Arduino\Builds\BluetoothCommunication\uno\SoftwareSerial\SoftwareSerial.cpp.o" source_file="C:\Program Files (x86)\Arduino\libraries\SoftwareSerial\SoftwareSerial.cpp" object_files="&quot;C:\Users\jodrew\AppData\Local\VMicro\Arduino\Builds\BluetoothCommunication\uno\BluetoothCommunication.cpp.o&quot; &quot;C:\Users\jodrew\AppData\Local\VMicro\Arduino\Builds\BluetoothCommunication\uno\VM_DBG\VM_mem_check.c.o&quot; &quot;C:\Users\jodrew\AppData\Local\VMicro\Arduino\Builds\BluetoothCommunication\uno\VM_DBG\VM_DBG.cpp.o&quot; &quot;C:\Users\jodrew\AppData\Local\VMicro\Arduino\Builds\BluetoothCommunication\uno\SoftwareSerial\SoftwareSerial.cpp.o&quot; " build.architecture="avr" vmresolved.compiler.path="C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\" vmresolved.tools.path="C:\Program Files (x86)\Arduino\hardware\tools\avr" />
+    </Platform>
+    <Compile CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\jodrew\AppData\Local\VMicro\Arduino\Builds\BluetoothCommunication\uno" IsDebugStart="1" SketchName="BluetoothCommunication" ReportDigitalPins="0" ReportAnalogPins="0" ReportI2C="0" ReportFreeMemory="0" IncludeDebug="1" LastDebugPreProcessorDefinitions="VM_DEBUG;VM_DEBUG_ENABLE 1;VM_DEBUG_BANDWIDTH_THROTTLE_MS 50;VM_DEBUGGER_TYPE_HARDWARESERIAL 0;VM_DEBUGGER_TYPE_SOFTWARESERIAL 1;VM_DEBUGGER_TYPE_FASTSERIAL 2;VM_DEBUGGER_TYPE_USB 3;VM_DEBUGGER_TYPE_TEENSY 4;VM_DEBUGGER_TYPE_UART 5;VM_DEBUGGER_TYPE_USART 6;VM_DEBUGGER_TYPE_USBSERIAL 7;VM_DEBUGGER_TYPE_TTYUART 8;VM_DEBUGGER_TYPE_NET_CONSOLE 9;VM_DEBUGGER_TYPE VM_DEBUGGER_TYPE_HARDWARESERIAL;" IncludesDebug="1" IsCompiled="1" />
+    <Debug DebugEnabled="1" />
+    <VCCodeModel>
+      <VCCodeMacros />
+    </VCCodeModel>
+    <BreakPoints>
+      <BreakPoint Index="1" Name="BluetoothCommunication.ino, line 44" Id="fb0eda13-0b8d-4da5-b34a-8a4b3e2ce1f9" Enabled="1" Message="{millis()}" MessageTextType="2" PreProcessedMessage="{0}" Condition="millis()&gt;0 || millis()&gt;1" ConditionType="1" CurrentHits="0" File="c:\users\jodrew\documents\visual studio 2013\projects\arduinobluetoothuniversalapp\triviagame\triviagame\arduinobluetooth\bluetoothcommunication\bluetoothcommunication.ino" FileLine="44" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="250" HitCountType="4" Language="C++" LocationType="3" Tag="&lt;vmbp Id='fb0eda13-0b8d-4da5-b34a-8a4b3e2ce1f9'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="1">
+        <Source>37		Serial.println("Bluetooth initialized");
+38	
+39		// initialize the pushbutton pin as an input:
+40		pinMode(redButtonPin, INPUT);
+41		pinMode(greenButtonPin, INPUT);
+42	}
+43	
+--&gt;44	void loop() {
+45	
+46		pushbuttonHandler();
+47	
+48		bluetoothHandler();
+49	
+50		/*unsigned long currentTime = millis();
+51		if ((currentTime - time) &gt; periodicMessageFrequency)
+52		{
+53			sendPeriodicMessages();
+</Source>
+        <MessageVariables>
+          <MessageVariable Name="millis()" Index="1" />
+        </MessageVariables>
+      </BreakPoint>
+      <BreakPoint Index="2" Name="QuestionsView.xaml.cs, line 157 character 13" Id="54d8ef85-2244-4671-a5ef-0842d91a196a" Enabled="1" Message="" MessageTextType="2" PreProcessedMessage="" Condition="" ConditionType="1" CurrentHits="0" File="c:\users\jodrew\documents\visual studio 2013\projects\arduinobluetoothuniversalapp\triviagame\triviagame\triviagame.shared\views\questionsview.xaml.cs" FileLine="157" FileColumn="13" FunctionName="TriviaGame.Views.QuestionsView.connectionManager_MessageReceived(object sender, string message)" FunctionLineOffset="3" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="C#" LocationType="3" Tag="&lt;vmbp Id='54d8ef85-2244-4671-a5ef-0842d91a196a'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="1">
+        <Source>150	            startButton.IsEnabled = (state == BluetoothConnectionState.Connected);
+151	            connectButton.IsEnabled = (state == BluetoothConnectionState.Disconnected);
+152	            disconnectButton.IsEnabled = (state == BluetoothConnectionState.Connected);
+153	        }
+154	
+155	        private void connectionManager_MessageReceived(object sender, string message)
+156	        {
+--&gt;157	            switch (message)
+158	            {
+159	                case "RED_PRESSED":
+160	                    ValidateAnswer("false");
+161	                    break;
+162	                case "GREEN_PRESSED":
+163	                    ValidateAnswer("true");
+164	                    break;
+165	            }
+166	            
+</Source>
+      </BreakPoint>
+    </BreakPoints>
+  </Program>
+</VisualMicro>
