@@ -1,15 +1,40 @@
-Windows-Universal-App-Trivia-Game-Arduino-Bluetooth
-===================================================
+# Windows-Universal-App-Trivia-Game-Arduino-Bluetooth
 
 I decided to take on a project that involves creating a Windows Universal App that communicates to an Arduino device via Bluetooth. I found a blog post (thanks Channel 9) and used the Arduino Sketch to get going but modified it to include 2-way communication. The sketch accepts input from the Windows device but also sends data based on push buttons.
 
-Blog post with videos
-http://drew5.net/2014/06/11/windows-universal-app-with-arduino/
 
-Sketch
+## Installation
+
+Clone or download this repository and use replace your wp-config.php.
+
+## Usage
+
+You can follow the step by step instructions here - 
+http://drew5.net/code/windows-universal-app-with-arduino/
+
 ![alt tag](http://drew5.net/downloads/Bluetooth-Comm_bb.png)
 
-DISCLAIMER:
+## History
+
+None at this time
+
+## Credits
+
+Joshua Drew
+Sr Technical Evangelist - Microsoft
+@jdruid
+Drew5.net
+
+## License
+
+Apache License 
+
+Version 2.0, January 2004 
+
+http://www.apache.org/licenses
+
+
+## DISCLAIMER:
 ==============
 The sample code described herein is provided on an "as is" basis, without warranty of any kind, to the fullest extent permitted by law. Both Microsoft and I do not warrant or guarantee the individual success developers may have in implementing the sample code on their development platforms or in using their own Web server configurations. 
 
